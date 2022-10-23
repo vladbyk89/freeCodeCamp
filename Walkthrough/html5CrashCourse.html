@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- This is how you comment(crtl + ?) -->
+    <!--Headings-->
+    <header id="mainHeader">
+        <div class="container">
+            <h1>Hello World</h1>
+        </div>
+        
+    </header>
+    <hr>
+   
+    <nav id="mainNav">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <p title='This is "a" tooltip'>Lorem ipsum dolor sit <strong>amet</strong> consectetur
+            <ins><em>adipisicing</em></ins> elit. Laborum rem
+            inventore quaerat
+            <b><span style="color: blue"> aperiam rerum ab reiciendis commodi sequi, non, aliquid, laudantium placeat quas facilis vero culpa</span></b>
+            incidunt eius repellendus!
+        </p>
+
+        <p>Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit. Laborum rem inventore quaerat tempora
+            aperiam rerum ab <del>reiciendis</del> commodi sequi, non, aliquid, laudantium placeat quas facilis vero
+            culpa <small>eius</small> repellendus! </p>
+        <p>Lorem ipsum <ins>dolor</ins> sit amet consectetur adipisicing elit. Laborum rem inventore quaerat
+            <sub>tempora</sub> aperiam
+            rerum ab
+            <sup>reiciendis</sup> commodi sequi, non, aliquid, laudantium placeat quas facilis vero culpa incidunt eius
+            repellendus!
+        </p>
+    </div>
+
+    <a href="https://www.instagram.com/vladb89/" target="_blank">
+        <img src="DSC_5049.JPG" alt="alternate description here" width="300">
+    </a>
+    <a href="#bookmark" target="">Jump to last line</a>
+    <!-- 5 empty lines -->
+    <br><br><br><br><br>
+
+    <ol type="a" start="5">
+        <li>List item 1</li>
+        <ul>
+            <li>Sub Bullet 1</li>
+            <li>Sub Bullet 2</li>
+            <li>Sub Bullet 3</li>
+        </ul>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+    </ol>
+
+    <caption>This is a caption</caption>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>35</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>Jill Smith</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>555-555-5555</td>
+        </tr>
+        <tr>
+            <td>777-777-7777</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action="server.php">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First Name:<br>
+            <input type="text" name="firstname" value="" placeholder="Type in your first name"><br>
+            Last Name:<br>
+            <input type="text" name="lastname" value="">
+            <br>
+            <input type="radio" name="options"> Option 1
+            <input type="radio" name="options"> Option 2
+            <br>
+            <input type="checkbox" name="checkboxes"checked> Checkbox 1
+            <input type="checkbox" name="checkboxes"> Checkbox 2
+            <input type="checkbox" name="checkboxes"> Checkbox 3
+            <br>
+            <label for="carSelect">Select:</label>
+            <select name="cars" id="carSelect">
+                <option value="BMW">BMW</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Audi">Audi</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+
+    <br>
+
+    <button>Click me</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="bookmark"><b>this is the last line</b></p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Skater Info</title>
+</head>
+<body>
+    <h1 id="title">Speed Skater Info</h1>
+    <p id="description">Please provide most recent data</p>
+    <form id="survey-form">
+        <fieldset class="1st fieldset">
+            <label for="name" id="name-label">Enter Your full Name: <input class="userType" id="name" type="text" placeholder="John De Smith" required /></label> 
+            <label for="email" id="email-label",>Enter Your Email: <input input class="userType" id="email" type="email" placeholder="speedskater@example.com" required /></label>
+
+            <label for="number" id="number-label">Enter your world ranking: <input input class="userType" id="number" type="number" min="1" max="300" placeholder="1, 43, 104" required /></label>
+
+        </fieldset>
+        <fieldset class="2ndFieldset">
+
+            <label for="dropdown"> Select Your Country: 
+                <select id="dropdown" name="country">
+                    <option value="">(select one)</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Israel">Israel</option>
+                    <option value="The Netherlands">The Netherlands</option>
+                    <option value="USA">USA</option>
+                </select>
+            </label>
+
+            <label class="gender" for="Male">Gender: <input id="Male" name="discipline" type="radio" value="1">Male</label>
+
+            <label class="gender" for="Female"><input id="Female" name="discipline" type="radio" value="2">Female</label>
+            <label class="gender" for="Other"><input id="Other" name="discipline" type="radio" value="3">Other</label>
+            <br>
+            <label class="iceType" for="Short-Track">Discipline: </label><input id="Short-Track" type="checkbox" value="1" required/> Short-Track</label>
+            <label class="iceType" for="Long-Track"></label><input id="Long-Track" type="checkbox" value="2" required/> Long-Track</label>
+          </fieldset>
+          <fieldset class="3rdFieldset" >
+
+            <label for="Boots">Skating Boots Model: <input id="Boots" type="text" placeholder="CBC, Marchese, 4G..." class="userType"></label>
+
+            <label for="Blades">Skating Blades Model: <input id="Blades" type="text" placeholder="Maple, M-Wave, Evo, EHS..." class="userType"></label>
+
+            <label for="Helmet">Helmet Model: <input id="Helmet" type="text" placeholder="Nice, PowerSlide, Evo..." class="userType"></label>
+
+            <label for="comments">Additional information</label>
+            <textarea name="extraInfo" id="comments" cols="30" rows="5" class="userType" placeholder="Angled cups, blades length, boots size..."></textarea>
+
+          </fieldset>
+          <input for="survey-form" type="submit" value="Submit" id="submit" />
+    </form>
+</body>
+</html>

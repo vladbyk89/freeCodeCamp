@@ -1,0 +1,66 @@
+main {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+header {
+    text-align: center;
+    width: 80%;
+    /* border: 2px solid black; */
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+#image-caption {
+    margin: 5px auto 50px auto;
+    /* border: 2px solid black; */
+}
+
+h4 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    margin-bottom: 0;
+}
+
+.facts {
+    margin: 0 5% 50px 1%;
+    max-width: 550px;
+    /* border: 2px solid black; */
+}
+
+li {
+    padding: 16px 0;
+    /* border: 2px solid black; */
+    margin-top: 0;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #dfdfe2;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin: 0 5% 50px 1%;
+    max-width: 550px;
+}
